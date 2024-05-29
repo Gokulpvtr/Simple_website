@@ -193,9 +193,7 @@ header a {
     transition: 0.5s ease-in-out;
 }
 
-.image-container img:hover {
-    transform: scale(1.1) rotate(-5deg);
-}
+
 
 footer {
     text-align: center;
@@ -207,3 +205,26 @@ footer span {
     color: var(--primary-color);
     font-weight: bold;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+   
+    .section-two {
+        display: table-row;
+        justify-content: space-evenly;
+        height: 100vh;
+        align-items: center;
+        
+    }
+    .container {
+        text-decoration: transparent;
+    }
+   
+}
+
