@@ -1,1 +1,1 @@
-https://gokulpvtr.github.io/Eagle-website/
+https://gokulpvtr.github.io/Simple_website/
